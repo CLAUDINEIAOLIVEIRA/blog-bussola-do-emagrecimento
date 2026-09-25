@@ -1,0 +1,167 @@
+.introListagem {
+  color: #555;
+  font-size: 16px;
+  margin: 4px 0 0;
+}
+
+.lista {
+  list-style: none;
+  padding: 0;
+  margin: 24px 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.item {
+  border: 1px solid #e2e2e2;
+  border-radius: 10px;
+  padding: 16px 20px;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.item:hover {
+  border-color: #2f7d5e;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.link {
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #17301f;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.resumo {
+  margin: 8px 0 0;
+  color: #555;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.voltar {
+  display: inline-block;
+  margin: 8px 0 16px;
+  color: #2f7d5e;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.voltar:hover {
+  text-decoration: underline;
+}
+
+/* ---- conteúdo do post (BlockRenderer) ---- */
+
+.conteudo {
+  margin-top: 24px;
+}
+
+.blocoH2 {
+  font-size: 24px;
+  margin: 40px 0 12px;
+  color: #17301f;
+  border-bottom: 2px solid #dcece2;
+  padding-bottom: 8px;
+}
+
+.blocoH3 {
+  font-size: 18px;
+  margin: 24px 0 8px;
+  color: #17301f;
+}
+
+.blocoP {
+  line-height: 1.7;
+  color: #333;
+  margin: 0 0 16px;
+}
+
+.blocoLista {
+  margin: 0 0 16px;
+  padding-left: 20px;
+  line-height: 1.7;
+  color: #333;
+}
+
+.blocoLista li {
+  margin-bottom: 6px;
+}
+
+.callout {
+  border-radius: 10px;
+  padding: 14px 18px;
+  margin: 0 0 20px;
+  border-left: 4px solid;
+}
+
+.calloutTitulo {
+  font-weight: 700;
+  margin: 0 0 6px;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.calloutTexto {
+  margin: 0;
+  line-height: 1.6;
+  font-size: 15px;
+}
+
+.callout_aviso {
+  background: #fdf1e8;
+  border-color: #e5a96a;
+}
+.callout_aviso .calloutTitulo {
+  color: #8a5a20;
+}
+
+.callout_dica {
+  background: #eaf4ec;
+  border-color: #6fae85;
+}
+.callout_dica .calloutTitulo {
+  color: #2f7d5e;
+}
+
+.callout_info {
+  background: #eaf1f7;
+  border-color: #6ea3c7;
+}
+.callout_info .calloutTitulo {
+  color: #2a5d7c;
+}
+
+.tabelaWrap {
+  overflow-x: auto;
+  margin: 0 0 20px;
+}
+
+.tabela {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 14px;
+}
+
+.tabela th,
+.tabela td {
+  border: 1px solid #e2e2e2;
+  padding: 10px 14px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.tabela th {
+  background: #17301f;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.tabela tr:nth-child(even) td {
+  background: #f6faf7;
+}
