@@ -99,6 +99,50 @@ export function LeafIcon({ className }: IconProps) {
   );
 }
 
+export function StarIcon({ className, filled }: IconProps & { filled?: boolean }) {
+  return (
+    <svg {...base} fill={filled ? "currentColor" : "none"} className={className}>
+      <polygon points="12 2.5 15.1 9 22.2 10 17.1 14.9 18.3 22 12 18.6 5.7 22 6.9 14.9 1.8 10 8.9 9 12 2.5" />
+    </svg>
+  );
+}
+
+export function SearchIcon({ className }: IconProps) {
+  return (
+    <svg {...base} className={className}>
+      <circle cx="10.5" cy="10.5" r="7" />
+      <line x1="20.5" y1="20.5" x2="15.5" y2="15.5" />
+    </svg>
+  );
+}
+
+export function LinkIcon({ className }: IconProps) {
+  return (
+    <svg {...base} className={className}>
+      <path d="M9.5 14.5l5-5" />
+      <path d="M11.5 6.5l1.1-1.1a4 4 0 1 1 5.7 5.7L17 12.4" />
+      <path d="M12.5 17.5l-1.1 1.1a4 4 0 1 1-5.7-5.7L7 11.6" />
+    </svg>
+  );
+}
+
+export function WhatsappIcon({ className }: IconProps) {
+  return (
+    <svg viewBox="0 0 24 24" fill="currentColor" className={className}>
+      <path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5.1-1.3A10 10 0 1 0 12 2zm0 18.2a8.1 8.1 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1s-.7.8-.9 1c-.2.2-.3.2-.6.1a6.6 6.6 0 0 1-2-1.2 7.4 7.4 0 0 1-1.4-1.7c-.1-.2 0-.4.1-.5s.2-.3.4-.4a1.5 1.5 0 0 0 .2-.4.4.4 0 0 0 0-.4c-.1-.1-.6-1.4-.8-1.9s-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 2.9 2.9 0 0 0-.9 2.2c0 1.3.9 2.5 1.1 2.7s1.7 2.7 4.3 3.7a5 5 0 0 0 2.8.6 2.4 2.4 0 0 0 1.6-1.1 1.9 1.9 0 0 0 .1-1.1c-.1-.1-.2-.2-.4-.3z" />
+    </svg>
+  );
+}
+
+export function ArrowUpIcon({ className }: IconProps) {
+  return (
+    <svg {...base} className={className}>
+      <line x1="12" y1="19" x2="12" y2="6" />
+      <polyline points="6 11.5 12 5.5 18 11.5" />
+    </svg>
+  );
+}
+
 export const postIcons: Record<string, (props: IconProps) => ReactElement> = {
   "minha-jornada": CompassIcon,
   "7-fontes-de-proteina": EggIcon,

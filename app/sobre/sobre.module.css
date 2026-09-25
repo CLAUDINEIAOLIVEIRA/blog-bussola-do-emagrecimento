@@ -14,7 +14,7 @@
   width: 56px;
   height: 56px;
   border-radius: 50%;
-  background: #eaf4ec;
+  background: linear-gradient(135deg, var(--cor-primaria) 0%, var(--cor-acento) 100%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -23,13 +23,13 @@
 .icone {
   width: 30px;
   height: 30px;
-  color: #2f7d5e;
+  color: #ffffff;
 }
 
 .assinatura {
   margin-top: 32px;
   padding-top: 16px;
-  border-top: 1px solid #e2e2e2;
-  color: #555;
+  border-top: 1px solid var(--cor-borda);
+  color: var(--cor-texto-suave);
   font-size: 15px;
 }

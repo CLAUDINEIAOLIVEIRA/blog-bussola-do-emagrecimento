@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 16px 24px;
-  background: #17301f;
+  background: linear-gradient(135deg, #7a2e0e 0%, #c1440e 100%);
   flex-wrap: wrap;
   gap: 8px;
 }
@@ -21,7 +21,7 @@
 }
 
 .link {
-  color: #cfe3d6;
+  color: #ffe3d1;
   text-decoration: none;
   font-size: 15px;
   font-weight: 500;
@@ -31,16 +31,16 @@
 }
 
 .link:hover {
-  background: #234a2e;
+  background: rgba(255, 255, 255, 0.15);
   color: #ffffff;
 }
 
 .ativo {
   background: #ffffff;
-  color: #17301f;
+  color: #c1440e;
 }
 
 .ativo:hover {
   background: #ffffff;
-  color: #17301f;
+  color: #c1440e;
 }

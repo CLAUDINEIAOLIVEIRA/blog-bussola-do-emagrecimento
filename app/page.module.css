@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   gap: 28px;
-  background: linear-gradient(135deg, #eaf4ec 0%, #f6faf7 100%);
+  background: linear-gradient(135deg, #ffe3d1 0%, #fff3e8 100%);
   border-radius: 16px;
   padding: 32px;
   margin-bottom: 40px;
@@ -13,7 +13,7 @@
   width: 96px;
   height: 96px;
   border-radius: 50%;
-  background: #17301f;
+  background: linear-gradient(135deg, var(--cor-primaria) 0%, var(--cor-acento) 100%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -42,7 +42,7 @@
 }
 
 .botao {
-  background: #17301f;
+  background: var(--cor-primaria);
   color: #ffffff;
   padding: 12px 22px;
   border-radius: 8px;
@@ -52,12 +52,12 @@
 }
 
 .botao:hover {
-  background: #234a2e;
+  background: var(--cor-primaria-escura);
 }
 
 .botaoSecundario {
-  border: 1px solid #17301f;
-  color: #17301f;
+  border: 1px solid var(--cor-primaria);
+  color: var(--cor-primaria-escura);
   padding: 12px 22px;
   border-radius: 8px;
   font-weight: 600;
@@ -67,12 +67,12 @@
 }
 
 .botaoSecundario:hover {
-  background: #eaf4ec;
+  background: var(--cor-primaria-clara);
 }
 
 .secaoTitulo {
   font-size: 20px;
-  color: #17301f;
+  color: var(--cor-primaria-escura);
   margin: 0 0 16px;
 }
 
@@ -89,10 +89,11 @@
   text-align: center;
   gap: 10px;
   padding: 20px 14px;
-  border: 1px solid #e2e2e2;
+  border: 1px solid var(--cor-borda);
   border-radius: 12px;
+  background: var(--cor-card);
   text-decoration: none;
-  color: #17301f;
+  color: var(--cor-primaria-escura);
   font-size: 14px;
   font-weight: 600;
   line-height: 1.35;
@@ -100,15 +101,15 @@
 }
 
 .gridCard:hover {
-  border-color: #2f7d5e;
-  box-shadow: 0 4px 12px rgba(23, 48, 31, 0.1);
+  border-color: var(--cor-acento);
+  box-shadow: 0 4px 12px rgba(193, 68, 14, 0.12);
   transform: translateY(-2px);
 }
 
 .gridIcone {
   width: 32px;
   height: 32px;
-  color: #2f7d5e;
+  color: var(--cor-acento);
 }
 
 @media (max-width: 560px) {

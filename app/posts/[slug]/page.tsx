@@ -2,7 +2,12 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import posts from "../data";
 import BlockRenderer from "../BlockRenderer";
+import { estimateReadingMinutes } from "../readingTime";
 import { postIcons, LeafIcon } from "../../components/icons";
+import FavoriteButton from "../../components/FavoriteButton";
+import ShareButtons from "../../components/ShareButtons";
+import ScrollProgress from "../../components/ScrollProgress";
+import BackToTop from "../../components/BackToTop";
 import styles from "../posts.module.css";
 
 interface PostDetalheProps {
@@ -18,9 +23,11 @@ export default async function PostDetalhe({ params }: PostDetalheProps) {
   }
 
   const Icon = postIcons[post.slug] ?? LeafIcon;
+  const tempoLeitura = estimateReadingMinutes(post.blocks);
 
   return (
     <main>
+      <ScrollProgress />
       <Link href="/posts" className={styles.voltar}>
         ← Voltar para Posts
       </Link>
@@ -31,12 +38,18 @@ export default async function PostDetalhe({ params }: PostDetalheProps) {
         <div>
           <h1>{post.titulo}</h1>
           <p className={styles.resumo}>{post.resumo}</p>
+          <span className={styles.tempoLeituraGrande}>📖 {tempoLeitura} min de leitura</span>
         </div>
       </div>
+      <div className={styles.acoesPost}>
+        <FavoriteButton slug={post.slug} />
+      </div>
       <BlockRenderer blocks={post.blocks} />
+      <ShareButtons titulo={post.titulo} />
       <Link href="/posts" className={styles.voltar}>
         ← Voltar para Posts
       </Link>
+      <BackToTop />
     </main>
   );
 }

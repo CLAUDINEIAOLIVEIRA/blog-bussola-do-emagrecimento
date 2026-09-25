@@ -1,0 +1,229 @@
+/* ---- favoritar ---- */
+
+.favoritoBotao {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #ffffff;
+  border: 1.5px solid var(--cor-acento-2);
+  color: var(--cor-primaria-escura);
+  padding: 9px 16px;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.15s ease, transform 0.1s ease;
+}
+
+.favoritoBotao:hover {
+  background: var(--cor-primaria-clara);
+}
+
+.favoritoBotao:active {
+  transform: scale(0.97);
+}
+
+.favoritoIcone {
+  width: 18px;
+  height: 18px;
+  color: var(--cor-acento);
+}
+
+.favoritoCompacto {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 2;
+  background: #ffffff;
+  border: 1px solid var(--cor-borda);
+  border-radius: 50%;
+  width: 34px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.1s ease, border-color 0.15s ease;
+}
+
+.favoritoCompacto:hover {
+  border-color: var(--cor-acento);
+}
+
+.favoritoCompacto:active {
+  transform: scale(0.92);
+}
+
+.favoritoIconeCompacto {
+  width: 17px;
+  height: 17px;
+  color: var(--cor-acento);
+}
+
+/* ---- compartilhar ---- */
+
+.compartilharWrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 28px 0;
+  padding: 16px 0;
+  border-top: 1px solid var(--cor-borda);
+  border-bottom: 1px solid var(--cor-borda);
+}
+
+.compartilharLabel {
+  font-weight: 600;
+  color: var(--cor-primaria-escura);
+  font-size: 14px;
+}
+
+.compartilharBotao {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--cor-primaria-clara);
+  color: var(--cor-primaria-escura);
+  border: none;
+  padding: 8px 14px;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.compartilharBotao:hover {
+  background: #ffd9bd;
+}
+
+.compartilharIcone {
+  width: 16px;
+  height: 16px;
+}
+
+/* ---- barra de progresso de leitura ---- */
+
+.progressoTrilha {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: transparent;
+  z-index: 50;
+}
+
+.progressoBarra {
+  height: 100%;
+  background: linear-gradient(90deg, var(--cor-acento) 0%, var(--cor-acento-2) 100%);
+  transition: width 0.1s ease-out;
+}
+
+/* ---- voltar ao topo ---- */
+
+.topoBotao {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  background: var(--cor-primaria);
+  color: #ffffff;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgba(193, 68, 14, 0.4);
+  z-index: 40;
+  transition: background 0.15s ease, transform 0.1s ease;
+}
+
+.topoBotao:hover {
+  background: var(--cor-primaria-escura);
+}
+
+.topoBotao:active {
+  transform: scale(0.94);
+}
+
+.topoIcone {
+  width: 22px;
+  height: 22px;
+}
+
+/* ---- busca e filtros (listagem de posts) ---- */
+
+.buscaWrap {
+  position: relative;
+  margin: 20px 0 16px;
+}
+
+.buscaIcone {
+  position: absolute;
+  left: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 18px;
+  height: 18px;
+  color: var(--cor-texto-suave);
+  pointer-events: none;
+}
+
+.buscaInput {
+  width: 100%;
+  padding: 11px 14px 11px 40px;
+  border-radius: 999px;
+  border: 1.5px solid var(--cor-borda);
+  font-size: 15px;
+  color: var(--foreground);
+  background: #ffffff;
+}
+
+.buscaInput:focus {
+  outline: none;
+  border-color: var(--cor-acento);
+}
+
+.filtros {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.chip {
+  border: 1.5px solid var(--cor-borda);
+  background: #ffffff;
+  color: var(--cor-primaria-escura);
+  padding: 7px 14px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+}
+
+.chip:hover {
+  border-color: var(--cor-acento);
+}
+
+.chipAtivo {
+  background: var(--cor-primaria);
+  border-color: var(--cor-primaria);
+  color: #ffffff;
+}
+
+.chipAtivo:hover {
+  background: var(--cor-primaria-escura);
+}
+
+.semResultados {
+  color: var(--cor-texto-suave);
+  padding: 24px 0;
+  text-align: center;
+}

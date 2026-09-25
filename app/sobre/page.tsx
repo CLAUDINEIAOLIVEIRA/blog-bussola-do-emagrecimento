@@ -32,7 +32,7 @@ export default function Sobre() {
         melhores ao seu médico e a construir hábitos que sustentem o resultado — não apenas a alcançá-lo.
       </p>
       <p className={styles.assinatura}>
-        <strong>Bússola do Emagrecimento</strong> é um projeto da TecPro Tecnologia — conteúdo educativo e
+        <strong>Bússola do Emagrecimento</strong> é um projeto da pesssoal — conteúdo educativo e
         cursos online.
       </p>
     </main>
