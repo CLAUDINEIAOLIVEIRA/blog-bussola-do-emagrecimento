@@ -1,14 +1,14 @@
 import type { Post } from "./types";
 import minhaJornada from "./content/minha-jornada";
 import seteFontesDeProteina from "./content/7-fontes-de-proteina";
-import fomeECompulsao from "./content/fome-e-compulsao-pos-tirzepatida";
+import fomeECompulsao from "./content/fome-e-compulsao-pos-caneta-emagrecedora";
 import examesMetabolicos from "./content/exames-metabolicos";
 import suplementacaoBasica from "./content/suplementacao-basica";
 import miudos from "./content/miudos-nutrientes-densos";
 import chasFuncionais from "./content/chas-funcionais";
 import creatina from "./content/creatina-nova-dose-anvisa";
 import receitasProteina from "./content/receitas-fontes-de-proteina";
-import protegendoMassaMuscular from "./content/protegendo-massa-muscular-tirzepatida";
+import protegendoMassaMuscular from "./content/protegendo-massa-muscular-caneta-emagrecedora";
 
 const posts: Post[] = [
   {
@@ -28,8 +28,8 @@ const posts: Post[] = [
     blocks: seteFontesDeProteina,
   },
   {
-    slug: "fome-e-compulsao-pos-tirzepatida",
-    titulo: "Como evitar a fome e a compulsão depois da tirzepatida",
+    slug: "fome-e-compulsao-pos-caneta-emagrecedora",
+    titulo: "Como evitar a fome e a compulsão depois da caneta emagrecedora",
     resumo:
       "Cinco técnicas para reduzir o rebote de fome depois de retirar a medicação: fibras, proteína com gordura, alto volume, desmame gradual e suplementação orientada.",
     categoria: "Manejo da fome",
@@ -83,8 +83,8 @@ const posts: Post[] = [
     blocks: receitasProteina,
   },
   {
-    slug: "protegendo-massa-muscular-tirzepatida",
-    titulo: "Como proteger a massa muscular durante o uso de tirzepatida",
+    slug: "protegendo-massa-muscular-caneta-emagrecedora",
+    titulo: "Como proteger a massa muscular durante o uso da caneta emagrecedora",
     resumo:
       "Seis estratégias para garantir que o peso perdido seja gordura, não músculo: aporte proteico, estratégias líquidas, treino de força, náuseas, fibras e micronutrientes.",
     categoria: "Manejo da fome",

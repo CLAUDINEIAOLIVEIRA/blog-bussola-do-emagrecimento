@@ -3,7 +3,7 @@ import type { Block } from "../types";
 const blocks: Block[] = [
   {
     type: "p",
-    text: "A tirzepatida é uma das ferramentas mais potentes atualmente para o emagrecimento, pois atua nos receptores de GLP-1 e GIP. Ela reduz significativamente o apetite, retarda o esvaziamento gástrico e melhora a sensibilidade à insulina.",
+    text: "No meu tratamento, a caneta emagrecedora foi uma das ferramentas mais potentes para o emagrecimento — ela reduz significativamente o apetite, retarda o esvaziamento gástrico e melhora a sensibilidade à insulina.",
   },
   {
     type: "p",
@@ -11,7 +11,7 @@ const blocks: Block[] = [
   },
   {
     type: "p",
-    text: "Aqui estão as estratégias mais importantes para otimizar os resultados e proteger a massa magra durante o uso de tirzepatida.",
+    text: "Aqui estão as estratégias que mais me ajudaram a otimizar os resultados e proteger a massa magra durante o uso da caneta emagrecedora.",
   },
   {
     type: "callout",
@@ -22,13 +22,13 @@ const blocks: Block[] = [
   { type: "h2", text: "1. Dobre a atenção no aporte proteico (mesmo sem fome)" },
   {
     type: "p",
-    text: "A tirzepatida tira a vontade de comer, o que torna fácil passar o dia consumindo pouquíssimas calorias e quase nenhuma proteína.",
+    text: "A caneta emagrecedora tira a vontade de comer, o que torna fácil passar o dia consumindo pouquíssimas calorias e quase nenhuma proteína.",
   },
   {
     type: "list",
     items: [
-      "A regra de ouro: em todas as refeições, coma a proteína primeiro (os ovos, o patinho, o frango, a ricota). Deixe os acompanhamentos para o final. Se a saciedade bater rápido, você garante que o nutriente construtor de músculo já foi ingerido.",
-      "Meta de proteína: para quem treina e busca preservar ou ganhar massa magra em déficit calórico, a meta costuma ser de 1,6 g a 2,0 g de proteína por quilo de peso corporal por dia.",
+      "A regra de ouro que segui: em todas as refeições, comer a proteína primeiro (os ovos, o patinho, o frango, a ricota) e deixar os acompanhamentos para o final. Se a saciedade bate rápido, isso garante que o nutriente construtor de músculo já foi ingerido.",
+      "Meta de proteína: minha orientação profissional foi mirar entre 1,6 g e 2,0 g de proteína por quilo de peso corporal por dia — uma faixa comum para quem treina e busca preservar massa magra em déficit calórico, mas que cada pessoa deve validar com seu próprio nutricionista.",
     ],
   },
 
@@ -39,7 +39,7 @@ const blocks: Block[] = [
   },
   {
     type: "p",
-    text: "Mantenha o whey protein, iogurtes proteicos e claras de ovo por perto. Batidos com água ou leite desnatado, eles passam rapidamente pelo estômago, garantem o aporte de aminoácidos e não causam peso estomacal.",
+    text: "Nesses dias, mantive whey protein, iogurtes proteicos e claras de ovo sempre por perto. Batidos com água ou leite desnatado, eles passam rapidamente pelo estômago, garantem o aporte de aminoácidos e não causam peso estomacal.",
   },
 
   { type: "h2", text: "3. Foco total no treino de força (musculação)" },
@@ -51,14 +51,14 @@ const blocks: Block[] = [
     type: "list",
     items: [
       "Se você apenas fizer aeróbico (esteira, caminhada) comendo pouco, o corpo queimará gordura e massa magra em proporções parecidas.",
-      "Priorize o treino de musculação pesado (com progressão de carga de acordo com o seu limite) pelo menos 3 a 5 vezes por semana.",
+      "O que funcionou para mim foi priorizar o treino de musculação pesado (com progressão de carga dentro do meu limite) pelo menos 3 a 5 vezes por semana.",
     ],
   },
 
   { type: "h2", text: "4. Gestão do esvaziamento gástrico e náuseas" },
   {
     type: "p",
-    text: "Como a tirzepatida lentifica a digestão, alguns ajustes na rotina alimentar ajudam a reduzir o desconforto:",
+    text: "Como a caneta emagrecedora lentifica a digestão, alguns ajustes na rotina alimentar ajudam a reduzir o desconforto:",
   },
   {
     type: "list",

@@ -12,7 +12,7 @@ const blocks: Block[] = [
   },
   {
     type: "p",
-    text: "As próximas publicações deste blog acompanham esse percurso: das fontes de proteína que sustentam saciedade e massa muscular, passando pelo manejo da fome durante e depois do uso de tirzepatida, os exames que ajudam a enxergar o metabolismo além da referência padrão do laboratório, a suplementação com respaldo científico, e as receitas caseiras que entraram na rotina pelo caminho.",
+    text: "As próximas publicações deste blog acompanham esse percurso: das fontes de proteína que sustentam saciedade e massa muscular, passando pelo manejo da fome durante e depois do uso da caneta emagrecedora, os exames que ajudam a enxergar o metabolismo além da referência padrão do laboratório, a suplementação com respaldo científico, e as receitas caseiras que entraram na rotina pelo caminho.",
   },
   {
     type: "callout",
@@ -22,7 +22,7 @@ const blocks: Block[] = [
   },
   {
     type: "p",
-    text: "O uso da tirzepatida seguiu orientação de um endocrinologista — não foi uma decisão tomada por conta própria. Já a parte alimentar deste guia reúne o que foi aprendido acompanhando alguns especialistas sérios, que compartilham publicamente informações mais detalhadas do que costuma caber em uma única consulta de consultório. Foi a combinação entre o tratamento médico e esse aprendizado paralelo que ajudou a sustentar o processo — e é também a base pensada para manter a saúde depois que a medicação, em algum momento, chegasse ao fim, como já era esperado desde o início.",
+    text: "O uso da caneta emagrecedora seguiu orientação de um endocrinologista — não foi uma decisão tomada por conta própria. Já a parte alimentar deste guia reúne o que foi aprendido acompanhando alguns especialistas sérios, que compartilham publicamente informações mais detalhadas do que costuma caber em uma única consulta de consultório. Foi a combinação entre o tratamento médico e esse aprendizado paralelo que ajudou a sustentar o processo — e é também a base pensada para manter a saúde depois que a medicação, em algum momento, chegasse ao fim, como já era esperado desde o início.",
   },
   {
     type: "p",
@@ -49,7 +49,7 @@ const blocks: Block[] = [
   {
     type: "table",
     headers: ["Semanas 1 a 4", "Semanas 5 a 8"],
-    rows: [["2,5 ml de tirzepatida", "5 ml de tirzepatida"]],
+    rows: [["2,5 ml da caneta emagrecedora", "5 ml da caneta emagrecedora"]],
   },
   {
     type: "p",

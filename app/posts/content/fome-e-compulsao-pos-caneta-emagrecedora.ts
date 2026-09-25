@@ -8,7 +8,7 @@ const blocks: Block[] = [
   {
     type: "callout",
     variant: "aviso",
-    text: "Este conteúdo relata uma experiência pessoal e traz informações educativas gerais. Ele não substitui o acompanhamento do médico responsável pela prescrição e pelo desmame da tirzepatida — decisões sobre dose, suspensão e uso de suplementos ou outros medicamentos devem ser sempre conduzidas por um profissional de saúde.",
+    text: "Este conteúdo relata uma experiência pessoal e traz informações educativas gerais. Ele não substitui o acompanhamento do médico responsável pela prescrição e pelo desmame da caneta emagrecedora — decisões sobre dose, suspensão e uso de suplementos ou outros medicamentos devem ser sempre conduzidas por um profissional de saúde.",
   },
 
   { type: "h2", text: "1. Mix de fibras" },
@@ -18,7 +18,7 @@ const blocks: Block[] = [
   },
   {
     type: "p",
-    text: "Retarda o esvaziamento gástrico e estimula a produção de GLP-1 — o mesmo hormônio que a tirzepatida amplificava, agora vindo da própria refeição.",
+    text: "Retarda o esvaziamento gástrico e estimula a produção de GLP-1 — o mesmo hormônio que a caneta emagrecedora amplificava, agora vindo da própria refeição.",
   },
   {
     type: "callout",
@@ -34,7 +34,7 @@ const blocks: Block[] = [
   },
   {
     type: "p",
-    text: "Essa combinação estimula GLP-1 e PYY — os dois hormônios que a tirzepatida imitava, agora ativados pelo próprio prato, sem injeção nenhuma.",
+    text: "Essa combinação estimula GLP-1 e PYY — os dois hormônios que a caneta emagrecedora imitava, agora ativados pelo próprio prato, sem injeção nenhuma.",
   },
   {
     type: "callout",
@@ -62,7 +62,7 @@ const blocks: Block[] = [
   { type: "h2", text: "4. Desmame gradual" },
   {
     type: "p",
-    text: "Parar de uma vez é o erro mais comum de quem interrompe a tirzepatida. A redução gradual, nunca o corte abrupto, gera menor rebote de fome — sempre com acompanhamento médico. Vale começar as outras técnicas antes mesmo de parar a medicação.",
+    text: "Parar de uma vez é o erro mais comum de quem interrompe o uso da caneta emagrecedora. No meu caso, a redução gradual, nunca o corte abrupto, foi o que meu médico orientou para gerar menor rebote de fome — sempre com acompanhamento médico. Vale começar as outras técnicas antes mesmo de parar a medicação.",
   },
   {
     type: "p",
@@ -72,7 +72,7 @@ const blocks: Block[] = [
     type: "callout",
     variant: "info",
     title: "Informação de saúde",
-    text: "Qualquer alteração de dose, frequência ou suspensão da tirzepatida deve ser decidida e acompanhada pelo médico que prescreveu o tratamento — nunca por conta própria. O cronograma de redução varia de pessoa para pessoa.",
+    text: "Qualquer alteração de dose, frequência ou suspensão do uso da caneta emagrecedora deve ser decidida e acompanhada pelo médico que prescreveu o tratamento — nunca por conta própria. O cronograma de redução varia de pessoa para pessoa.",
   },
 
   { type: "h2", text: "5. Suplementação orientada" },
@@ -91,7 +91,7 @@ const blocks: Block[] = [
     text: "Berberina pode interagir com outros medicamentos e não é isenta de efeitos colaterais gastrointestinais. Qualquer suplemento ou medicamento adjuvante — incluindo os de uso controlado — só deve ser introduzido com avaliação e prescrição médica individual.",
   },
 
-  { type: "h2", text: "Por que funciona: a tirzepatida imita um hormônio que você já tem" },
+  { type: "h2", text: "Por que funciona: a caneta emagrecedora imita um hormônio que você já tem" },
   {
     type: "p",
     text: "GLP-1 e PYY já existem no seu corpo — a medicação amplificava o que você produz naturalmente. Quando o tratamento é retirado, a produção volta ao próprio ritmo, e essa queda explica a fome que aparece nos primeiros dias.",
@@ -103,7 +103,7 @@ const blocks: Block[] = [
   {
     type: "callout",
     variant: "info",
-    text: "Fome depois da tirzepatida é hormônio, não fraqueza. Quem sente fome forte nos primeiros dias sem a medicação não está fracassando — está sentindo a queda hormonal se reorganizar. Isso tem explicação fisiológica e tem manejo.",
+    text: "Fome depois de usar a caneta emagrecedora é hormônio, não fraqueza. Quem sente fome forte nos primeiros dias sem a medicação não está fracassando — está sentindo a queda hormonal se reorganizar. Isso tem explicação fisiológica e tem manejo.",
   },
 ];
 

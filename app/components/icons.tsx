@@ -171,12 +171,12 @@ export function ArrowUpIcon({ className }: IconProps) {
 export const postIcons: Record<string, (props: IconProps) => ReactElement> = {
   "minha-jornada": CompassIcon,
   "7-fontes-de-proteina": EggIcon,
-  "fome-e-compulsao-pos-tirzepatida": ClockIcon,
+  "fome-e-compulsao-pos-caneta-emagrecedora": ClockIcon,
   "exames-metabolicos": FlaskIcon,
   "suplementacao-basica": CapsuleIcon,
   "miudos-nutrientes-densos": KnifeIcon,
   "chas-funcionais": TeacupIcon,
   "creatina-nova-dose-anvisa": MoleculeIcon,
   "receitas-fontes-de-proteina": UtensilsIcon,
-  "protegendo-massa-muscular-tirzepatida": DumbbellIcon,
+  "protegendo-massa-muscular-caneta-emagrecedora": DumbbellIcon,
 };
