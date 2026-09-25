@@ -294,6 +294,28 @@ const blocks: Block[] = [
     text: "Bata a ricota no processador com azeite, limão e ervas: em menos de 5 minutos vira um patê proteico para substituir cream cheese ou maionese no lanche.",
   },
 
+  { type: "h2", text: "Bônus: whey protein — quando vale usar" },
+  {
+    type: "p",
+    text: "Diferente das sete fontes acima, o whey protein não é um alimento — é um suplemento. Ele serve para complementar a sua meta diária de proteína e ajudar na recuperação e na construção de massa muscular.",
+  },
+  { type: "h3", text: "Meta diária de proteína" },
+  {
+    type: "p",
+    text: "Para ganhar massa, o corpo precisa de cerca de 1,4 g a 2 g de proteína por quilo de peso corporal todos os dias.",
+  },
+  { type: "h3", text: "Porção do suplemento" },
+  {
+    type: "p",
+    text: "Uma dose padrão (1 scoop) tem cerca de 20 g a 30 g de proteína.",
+  },
+  {
+    type: "callout",
+    variant: "dica",
+    title: "Cálculo prático",
+    text: "O whey não é obrigatório se você já consome proteína suficiente com ovos, carnes e leite; ele é uma ferramenta para preencher o que falta na sua dieta, não uma exigência.",
+  },
+
   { type: "h2", text: "Quadro comparativo" },
   {
     type: "table",
