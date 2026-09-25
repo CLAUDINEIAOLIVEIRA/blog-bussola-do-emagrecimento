@@ -9,8 +9,8 @@ export default function FavoriteButton({ slug, compact = false }: { slug: string
   const [favorito, setFavorito] = useState(false);
 
   useEffect(() => {
-    setFavorito(lerFavoritos().includes(slug));
     const atualizar = () => setFavorito(lerFavoritos().includes(slug));
+    atualizar();
     window.addEventListener(FAVORITOS_EVENTO, atualizar);
     return () => window.removeEventListener(FAVORITOS_EVENTO, atualizar);
   }, [slug]);

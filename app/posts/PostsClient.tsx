@@ -26,8 +26,8 @@ export default function PostsClient({ posts }: { posts: PostResumo[] }) {
   const [favoritos, setFavoritos] = useState<string[]>([]);
 
   useEffect(() => {
-    setFavoritos(lerFavoritos());
     const atualizar = () => setFavoritos(lerFavoritos());
+    atualizar();
     window.addEventListener(FAVORITOS_EVENTO, atualizar);
     return () => window.removeEventListener(FAVORITOS_EVENTO, atualizar);
   }, []);
