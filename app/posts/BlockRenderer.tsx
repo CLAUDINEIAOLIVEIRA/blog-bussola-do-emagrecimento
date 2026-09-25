@@ -30,14 +30,16 @@ export default function BlockRenderer({ blocks }: { blocks: Block[] }) {
                 {block.text}
               </p>
             );
-          case "list":
+          case "list": {
+            const ListTag = block.ordered ? "ol" : "ul";
             return (
-              <ul key={i} className={styles.blocoLista}>
+              <ListTag key={i} className={styles.blocoLista}>
                 {block.items.map((item, j) => (
                   <li key={j}>{item}</li>
                 ))}
-              </ul>
+              </ListTag>
             );
+          }
           case "callout":
             return (
               <div key={i} className={`${styles.callout} ${styles[`callout_${block.variant}`]}`}>

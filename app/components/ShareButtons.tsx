@@ -1,11 +1,17 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { LinkIcon, WhatsappIcon } from "./icons";
 import styles from "./interactive.module.css";
 
 export default function ShareButtons({ titulo }: { titulo: string }) {
   const [copiado, setCopiado] = useState(false);
+  const [linkAtual, setLinkAtual] = useState("");
+
+  useEffect(() => {
+    const atualizar = () => setLinkAtual(window.location.href);
+    atualizar();
+  }, []);
 
   async function copiarLink() {
     try {
@@ -17,8 +23,7 @@ export default function ShareButtons({ titulo }: { titulo: string }) {
     }
   }
 
-  const linkAtual = typeof window !== "undefined" ? window.location.href : "";
-  const whatsappHref = `https://wa.me/?text=${encodeURIComponent(`${titulo} — ${linkAtual}`)}`;
+  const whatsappHref = `https://wa.me/?text=${encodeURIComponent(linkAtual ? `${titulo} — ${linkAtual}` : titulo)}`;
 
   return (
     <div className={styles.compartilharWrap}>

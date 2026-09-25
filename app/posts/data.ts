@@ -7,6 +7,7 @@ import suplementacaoBasica from "./content/suplementacao-basica";
 import miudos from "./content/miudos-nutrientes-densos";
 import chasFuncionais from "./content/chas-funcionais";
 import creatina from "./content/creatina-nova-dose-anvisa";
+import receitasProteina from "./content/receitas-fontes-de-proteina";
 
 const posts: Post[] = [
   {
@@ -71,6 +72,14 @@ const posts: Post[] = [
       "A Anvisa atualizou a dose diária de referência de creatina de 3 g para 5 g em 2025. Os cinco benefícios com respaldo científico e a dose na prática.",
     categoria: "Suplementação",
     blocks: creatina,
+  },
+  {
+    slug: "receitas-fontes-de-proteina",
+    titulo: "20 receitas com as fontes de proteína do guia",
+    resumo:
+      "Duas receitas práticas para cada proteína: ovo, fígado de frango, sardinha, sobrecoxa, carne moída, pernil suíno, ricota, whey protein, moela e patinho.",
+    categoria: "Receitas",
+    blocks: receitasProteina,
   },
 ];
 

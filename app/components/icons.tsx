@@ -99,6 +99,17 @@ export function LeafIcon({ className }: IconProps) {
   );
 }
 
+export function UtensilsIcon({ className }: IconProps) {
+  return (
+    <svg {...base} className={className}>
+      <path d="M6.5 2.5v7.5" />
+      <path d="M4.5 2.5v5a2 2 0 0 0 4 0v-5" />
+      <path d="M6.5 10v11.5" />
+      <path d="M17 2.5c-1.7 0-3 2-3 5.5S15.3 13.5 17 13.5v8" />
+    </svg>
+  );
+}
+
 export function StarIcon({ className, filled }: IconProps & { filled?: boolean }) {
   return (
     <svg {...base} fill={filled ? "currentColor" : "none"} className={className}>
@@ -152,4 +163,5 @@ export const postIcons: Record<string, (props: IconProps) => ReactElement> = {
   "miudos-nutrientes-densos": KnifeIcon,
   "chas-funcionais": TeacupIcon,
   "creatina-nova-dose-anvisa": MoleculeIcon,
+  "receitas-fontes-de-proteina": UtensilsIcon,
 };
