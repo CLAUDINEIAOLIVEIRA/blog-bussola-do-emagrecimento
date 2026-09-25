@@ -99,6 +99,20 @@ export function LeafIcon({ className }: IconProps) {
   );
 }
 
+export function DumbbellIcon({ className }: IconProps) {
+  return (
+    <svg {...base} className={className}>
+      <path d="M4.5 9v6" />
+      <path d="M2.5 10.5v3" />
+      <path d="M19.5 9v6" />
+      <path d="M21.5 10.5v3" />
+      <path d="M7 12h10" />
+      <rect x="6" y="8.5" width="2.5" height="7" rx="1" />
+      <rect x="15.5" y="8.5" width="2.5" height="7" rx="1" />
+    </svg>
+  );
+}
+
 export function UtensilsIcon({ className }: IconProps) {
   return (
     <svg {...base} className={className}>
@@ -164,4 +178,5 @@ export const postIcons: Record<string, (props: IconProps) => ReactElement> = {
   "chas-funcionais": TeacupIcon,
   "creatina-nova-dose-anvisa": MoleculeIcon,
   "receitas-fontes-de-proteina": UtensilsIcon,
+  "protegendo-massa-muscular-tirzepatida": DumbbellIcon,
 };

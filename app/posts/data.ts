@@ -8,6 +8,7 @@ import miudos from "./content/miudos-nutrientes-densos";
 import chasFuncionais from "./content/chas-funcionais";
 import creatina from "./content/creatina-nova-dose-anvisa";
 import receitasProteina from "./content/receitas-fontes-de-proteina";
+import protegendoMassaMuscular from "./content/protegendo-massa-muscular-tirzepatida";
 
 const posts: Post[] = [
   {
@@ -80,6 +81,14 @@ const posts: Post[] = [
       "Duas receitas práticas para cada proteína: ovo, fígado de frango, sardinha, sobrecoxa, carne moída, pernil suíno, ricota, whey protein, moela e patinho.",
     categoria: "Receitas",
     blocks: receitasProteina,
+  },
+  {
+    slug: "protegendo-massa-muscular-tirzepatida",
+    titulo: "Como proteger a massa muscular durante o uso de tirzepatida",
+    resumo:
+      "Seis estratégias para garantir que o peso perdido seja gordura, não músculo: aporte proteico, estratégias líquidas, treino de força, náuseas, fibras e micronutrientes.",
+    categoria: "Manejo da fome",
+    blocks: protegendoMassaMuscular,
   },
 ];
 
