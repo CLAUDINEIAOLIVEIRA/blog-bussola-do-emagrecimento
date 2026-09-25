@@ -1,7 +1,15 @@
+import { LeafIcon } from "../components/icons";
+import styles from "./sobre.module.css";
+
 export default function Sobre() {
   return (
     <main>
-      <h1>Sobre este guia</h1>
+      <div className={styles.cabecalho}>
+        <span className={styles.selo}>
+          <LeafIcon className={styles.icone} />
+        </span>
+        <h1>Sobre este guia</h1>
+      </div>
       <p>
         Este blog nasceu de uma experiência pessoal com obesidade e alterações na insulina — não de uma pesquisa
         feita de fora para dentro. Cada post aqui foi reunido aos poucos, na medida em que fez parte de um
@@ -23,7 +31,7 @@ export default function Sobre() {
         Se você está começando uma jornada parecida, a esperança é que este conteúdo ajude a fazer perguntas
         melhores ao seu médico e a construir hábitos que sustentem o resultado — não apenas a alcançá-lo.
       </p>
-      <p>
+      <p className={styles.assinatura}>
         <strong>Bússola do Emagrecimento</strong> é um projeto da TecPro Tecnologia — conteúdo educativo e
         cursos online.
       </p>

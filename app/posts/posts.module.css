@@ -15,14 +15,46 @@
 
 .item {
   border: 1px solid #e2e2e2;
-  border-radius: 10px;
-  padding: 16px 20px;
-  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+  border-radius: 12px;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease, transform 0.15s ease;
+  overflow: hidden;
 }
 
 .item:hover {
   border-color: #2f7d5e;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 4px 12px rgba(23, 48, 31, 0.08);
+  transform: translateY(-1px);
+}
+
+.itemLink {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 18px 20px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.itemSelo {
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: #eaf4ec;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.itemIcone {
+  width: 26px;
+  height: 26px;
+  color: #2f7d5e;
+}
+
+.itemTexto {
+  display: flex;
+  flex-direction: column;
 }
 
 .link {
@@ -32,7 +64,7 @@
   color: #17301f;
 }
 
-.link:hover {
+.itemLink:hover .link {
   text-decoration: underline;
 }
 
@@ -41,6 +73,45 @@
   color: #555;
   font-size: 15px;
   line-height: 1.5;
+}
+
+.cabecalhoPost {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin: 8px 0 8px;
+}
+
+.cabecalhoPost h1 {
+  margin: 0 0 6px;
+}
+
+.cabecalhoPost .resumo {
+  margin: 0;
+}
+
+.seloGrande {
+  flex-shrink: 0;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: #17301f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.seloGrandeIcone {
+  width: 34px;
+  height: 34px;
+  color: #ffffff;
+}
+
+@media (max-width: 480px) {
+  .cabecalhoPost {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
 
 .voltar {

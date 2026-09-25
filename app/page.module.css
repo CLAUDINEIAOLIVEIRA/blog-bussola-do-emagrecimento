@@ -1,3 +1,39 @@
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  background: linear-gradient(135deg, #eaf4ec 0%, #f6faf7 100%);
+  border-radius: 16px;
+  padding: 32px;
+  margin-bottom: 40px;
+}
+
+.heroIconeWrap {
+  flex-shrink: 0;
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  background: #17301f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heroIcone {
+  width: 52px;
+  height: 52px;
+  color: #ffffff;
+}
+
+.hero h1 {
+  margin: 0 0 10px;
+}
+
+.hero p {
+  margin: 0;
+  max-width: 46ch;
+}
+
 .destaques {
   display: flex;
   gap: 12px;
@@ -26,9 +62,67 @@
   border-radius: 8px;
   font-weight: 600;
   text-decoration: none;
+  background: #ffffff;
   transition: background 0.15s ease;
 }
 
 .botaoSecundario:hover {
   background: #eaf4ec;
+}
+
+.secaoTitulo {
+  font-size: 20px;
+  color: #17301f;
+  margin: 0 0 16px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 14px;
+}
+
+.gridCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  padding: 20px 14px;
+  border: 1px solid #e2e2e2;
+  border-radius: 12px;
+  text-decoration: none;
+  color: #17301f;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.35;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease, transform 0.15s ease;
+}
+
+.gridCard:hover {
+  border-color: #2f7d5e;
+  box-shadow: 0 4px 12px rgba(23, 48, 31, 0.1);
+  transform: translateY(-2px);
+}
+
+.gridIcone {
+  width: 32px;
+  height: 32px;
+  color: #2f7d5e;
+}
+
+@media (max-width: 560px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 24px;
+  }
+
+  .hero p {
+    max-width: none;
+  }
+
+  .destaques {
+    justify-content: center;
+  }
 }
